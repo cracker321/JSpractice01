@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+
+<script>
+<!-- p480~  -->
+    let numberOne = prompt("숫자 입력하쎄용");
+    let numberTwo = prompt("숫자 입력하쎄쎄쎄쎄쎄쎄쎄쎄용")
+
+
+//1.사용자가 위 두 개의 순서대로 뜨는 프롬프트창에 입력한 내용이 일단 두 개 다 null이 아닌 경우에만 작동
+//'&&': AND(모두)
+//'||': OR(또는)
+if(numberOne !== null && numberTwo !== null){
+
+    //2.그 입력된 내용 두 개 중 하나가 10보다 작은지 아닌지 여부에 따라 프롬프트창 '확인' 누른 이후의 결과가 달라짐
+    if(numberOne < 10 || numberTwo < 10){
+
+        alert("입력한 두 개의 내용 중 하나가 10보다 작습니다. 맞습니다.")
+    }else{
+
+        alert("입력한 두 개의 내용 둘 다 10보다 큽니다.")
+    }
+
+
+}
+
+
+</script>
+
+
+</body>
+</html>

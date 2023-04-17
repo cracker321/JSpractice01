@@ -1,0 +1,11 @@
+//문자열은 ''(싱글 쿼테이션) 또는 ""(더블 쿼테이션)을 이용해 묶어준다.
+//[ Template Literals(탬플릿 리터럴) ]
+const name = "유종";
+const age = 32;
+
+//아래 두 개(str1과 str2)는 동일하다
+const str1 = "나는 " + name + "이고, " + age + "살이야";
+const str2 = '나는 ${name}이고, ${age}살 이야.'
+
+console.log(str1);
+console.log(str2);
