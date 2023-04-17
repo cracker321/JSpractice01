@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>pra02</title>
+</head>
+<body>
+
+<div id="container">
+
+<!--해당 텍스트를 누르면 다른 페이지('pra01.html')로 이동함-->
+<!--a태그가 p태그를 감싸도 되고, p태그가 a태그를 감싸도 되고-->
+  <a href="pra01.html"><p>pra01.html로 연결되는 하이퍼링크. 'a태그'는 하이퍼링크 넣어주는 태그임.</p></a>
+
+
+<!--사진을 누르면 다른 페이지('pra01.html')로 이동함  -->
+<!--p태그가 a태그를 감싸도 되고, a태그가 p태그를 감싸도 되고-->
+  <p><a href="pra01.html"><img src="/images/img3.png" alt="누르면 연결되는 사진">사진을 누르면 다른 페이지로 이동됩니다.</a></p>
+
+
+<!-- '(입력)폼'을 만드는 <form>태그   -->
+   <form action="" autocomplete="on">
+
+<!-- '속성 label':      -->
+<!-- 'for="user-id"': 화면에 나오는 것은 아님. 단지 '폼 요소'와 '레이블'을 연결해준다는 것을 뜻함  -->
+    <label for="user-id">아이디: </label>
+<!-- '<input>태그의 속성 text':     -->
+       <input type="text" id="user-id", value="아이디를 입력해주세용용용">
+
+<!-- '<input>태그' 상세설명: p130 참고      -->
+
+
+
+<!-- '속성 label':      -->
+       <label>비밀번호: <input type="password"></label>
+<!-- '<input>태그의 속성 submit': '제출 버튼'과 같은 버튼 생성.        -->
+       <input type="submit" value="로그인버튼입니당당당ㅁ">
+
+
+    </form>
+
+</div>
+</body>
+</html>
